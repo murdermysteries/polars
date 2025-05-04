@@ -1,4 +1,4 @@
-jupyterlite-core
+jupyterlite
 jupyterlab-night
 jupyterlab-git
 theme-darcula
