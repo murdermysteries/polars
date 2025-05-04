@@ -52,7 +52,7 @@ When running locally or after deployment, you can access the notebooks in two wa
 
 2. **Direct Access**: Navigate to the JupyterLite Lab interface and open the notebook from the files panel:
    - Local: http://localhost:8000/lab/index.html
-   - After deployment: https://your-github-username.github.io/polars-murder-mysteries/lab/index.html
+   - After deployment: https://murdermysteries.github.io/polars/lab/index.html
 
 The notebooks are located in the `files` directory within the JupyterLite environment.
 
