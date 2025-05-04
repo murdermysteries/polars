@@ -1,0 +1,43 @@
+{
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "federated_extensions": [
+      {
+        "name": "jupyterlab-nord-light-theme",
+        "load": "static/jupyterlab-nord-light-theme"
+      }
+    ],
+    "appName": "Polars Murder Mysteries",
+    "appVersion": "0.1.0",
+    "disabledExtensions": [
+      "@jupyterlite/xeus-python-kernel"
+    ],
+    "settingsOverrides": {
+      "@jupyterlab/translation-extension:plugin": {
+        "locale": "en"
+      },
+      "@jupyterlab/notebook-extension:tracker": {
+        "codeCellConfig": {
+          "lineNumbers": true
+        }
+      },
+      "@jupyterlab/apputils-extension:themes": {
+        "theme": "Nord Light"
+      }
+    },
+    "enableMemoryStorage": true,
+    "enableServiceWorker": true,
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "packages": [
+          "polars",
+          "pandas",
+          "matplotlib",
+          "seaborn",
+          "faker",
+          "hashlib"
+        ]
+      }
+    }
+  }
+}

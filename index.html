@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polars Murder Mysteries</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .case-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Polars Murder Mysteries</h1>
+        <p>Solve murder mysteries using data analysis with the Polars library</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About the Project</h2>
+            <p>
+                Welcome to Polars Murder Mysteries! This project combines engaging murder mystery scenarios with 
+                data analysis using the powerful Polars library. Each mystery provides datasets that you'll analyze 
+                to solve the case, learning Polars features along the way.
+            </p>
+            <p>
+                The mysteries are presented as interactive Jupyter notebooks running entirely in your browser 
+                using JupyterLite and WebAssembly - no installation required!
+            </p>
+        </section>
+
+        <section>
+            <h2>Available Cases</h2>
+            
+            <div class="case-card">
+                <h3>Death at the Aurora Theater</h3>
+                <p>
+                    A renowned actor has been found dead at the Aurora Theater after the evening performance. 
+                    As the lead detective, you must analyze police records, witness statements, theater access logs, 
+                    and staff information to identify the killer.
+                </p>
+                <p>
+                    <strong>Skills you'll learn:</strong> Filtering data, joining tables, grouping and aggregation, 
+                    and working with timestamps in Polars.
+                </p>
+                <a href="./lab/index.html?path=files/Death%20at%20the%20Aurora%20Theater.ipynb" class="button">Solve the Case</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Getting Started</h2>
+            <p>
+                Click the "Solve the Case" button above to launch the interactive notebook. The notebook contains:
+            </p>
+            <ul>
+                <li>A detailed case description</li>
+                <li>Access to all relevant datasets</li>
+                <li>Guided steps to help you analyze the data</li>
+                <li>Code cells where you can write and execute Polars code</li>
+                <li>A verification mechanism to check your solution</li>
+            </ul>
+            <p>
+                No prior experience with Polars is required - each notebook includes explanations of the 
+                functions and methods you'll need to solve the case.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Polars Murder Mysteries &copy; 2025 | Powered by JupyterLite</p>
+    </footer>
+</body>
+</html>
